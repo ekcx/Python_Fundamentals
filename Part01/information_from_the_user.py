@@ -9,4 +9,5 @@ print(age * 3)
 # Please attention! "input" method is taking the string always!
 # data type of any variable by taking input is STRING !!!!
 
-
+name2 = input("Your name: ")
+print("Your name " + name2 + " is String!")
