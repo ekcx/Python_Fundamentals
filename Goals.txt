@@ -1,0 +1,3 @@
+# The Goals #
+1) Approx. 1000 lines of python Code.
+2) Applying general projects on python.
