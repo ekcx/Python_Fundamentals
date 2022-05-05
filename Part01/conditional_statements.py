@@ -49,3 +49,17 @@ print(condition)
 # It is turningh boolean value True to integer 1
 condition = int(a < 4)
 print(condition)
+
+number1 = input("Number1:")
+number2 = input("Number2:")
+operation = input("Operation")
+
+if operation == "add":
+    print(f"{number1} + {number2} = {int(number1) + int(number2)}")
+elif operation == "multiply":
+    print(f"{number1} * {number2} = {int(number1) * int(number2)}")
+elif operation == "subtract":
+    print(f"{number1} - {number2} = {int(number1) - int(number2)}")
+else:
+    print("It is not logical expression!")
+
