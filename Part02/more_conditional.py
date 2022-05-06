@@ -26,6 +26,28 @@ if number % 2 == 0:
 else:
     print("The number is odd!")
 
+# Another example with string comparison
+
+correct = "kittycat"
+password = input("Please enter a passowrd: ")
+
+if password == correct:
+    print("Correct!")
+else:
+    print("No Match!")
+
+age = int(input("Please type your age: "))
+
+if age > 18:
+    print("You are of age!")
+else:
+    print("You are not of age!")
+
+
+
+
+
+
 
 
 
