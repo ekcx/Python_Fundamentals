@@ -66,3 +66,52 @@ while number != 0:
     if number == 0:
         print("Exiting...")
 
+print("\n")
+check_number = 5
+
+while check_number > 0:
+    print(check_number)
+    check_number += -1
+
+string_pass = input("Password")
+repeat_password = input("Repeat Password")
+
+while string_pass != repeat_password:
+    print("Type do not match!")
+    repeat_password = input("Repeat Password: ")
+
+if string_pass == repeat_password:
+    print("User account created!")
+
+# Using Helper Variable in the loops.
+
+attempts = 0
+
+while True:
+    code = int(input("Type in a password: "))
+    attempts += 1
+
+    if code == 1234:
+        print("The code was entered!")
+        break
+    elif attempts == 3:
+        print("Too many attempts!")
+        break
+    else:
+        print("Type again!")
+
+
+pin = 0
+attempts = 0
+
+while pin != 4321:
+    pin = int(input("PIN"))
+    attempts += 1
+
+    if attempts == 1 and pin == 4321:
+        print("Correct! It only took you one single attempt!")
+    elif pin == 4321:
+        print(f"Correct! It took you {attempts} attempts")
+    else:
+        print("Wrong")
+
