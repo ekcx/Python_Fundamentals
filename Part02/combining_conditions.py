@@ -35,3 +35,5 @@ if check > 0:
         print(f"{check} is a positive and odd number.")
 else:
     print(f"{check} is a negative number.")
+
+
