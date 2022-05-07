@@ -44,5 +44,25 @@ while value != 0:
 
 print("You entered the 0. Thanks.")
 
+string = ""
 
+while string != "no":
+    print("hello!")
+    string = input("Shall we continue?")
+
+print("Thanks. Goodbye.")
+
+from math import sqrt
+
+number = 1
+
+while number != 0:
+    number = int(input("Please type in a number: "))
+    if number < 0:
+        print("Invalid Number.")
+    else:
+        print(sqrt(number))
+
+    if number == 0:
+        print("Exiting...")
 
