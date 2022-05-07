@@ -21,3 +21,28 @@ print("\n")
 for i in range(5):
     print(odd_list[i])
 
+while True:
+    number = int(input("Please type in a number, -1 to quit: "))
+
+    if number == -1:
+        break
+    print(number ** 2)
+
+print("Thanks and bye!")
+
+value = int(input("Please type an integer: "))
+
+while value < 10:
+    print(f"{value}")
+    value += 1
+
+print("The end of the while.")
+
+while value != 0:
+    print(f"The last value is {value}")
+    value = int(input("Please type a number again: (0 Exit)"))
+
+print("You entered the 0. Thanks.")
+
+
+
