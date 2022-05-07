@@ -100,7 +100,6 @@ while True:
     else:
         print("Type again!")
 
-
 pin = 0
 attempts = 0
 
