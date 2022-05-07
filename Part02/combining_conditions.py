@@ -11,3 +11,7 @@ if number < 5 or number > 8:
 else:
     print("The number is within the range of 5 to 8.")
 
+# instead of && and ||, python is using AND and OR word.
+
+leap_year = int(print("Enter the year: "))
+
