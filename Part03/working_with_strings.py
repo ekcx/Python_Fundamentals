@@ -31,5 +31,3 @@ elif len(compare_string2) > len(compare_string1):
     print(compare_string2, "is longer than", compare_string1)
 else:
     print("Each strings are equal to each other.", compare_string1, "=", compare_string2)
-
-
