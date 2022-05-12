@@ -26,11 +26,13 @@ while new_value < check_value:
 
 get_limit = int(input("Type a limit: "))
 summation = 0
-
+print("The consecutive sum: ")
 for i in range(1, get_limit):
     if summation >= get_limit:
         break
     else:
         summation += i
+        print(f"{i}")
 
 print(summation)
+
