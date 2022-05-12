@@ -66,3 +66,7 @@ if get_str[2] == get_str[-1]:
 else:
     print("The second and the last character is different.")
 
+get_number = int(input("Width:"))
+print("#" * get_number)
+
+
