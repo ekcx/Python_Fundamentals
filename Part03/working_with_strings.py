@@ -59,3 +59,10 @@ testing = input("Type in a string: ")
 print("First Character: ", testing[0])
 print("Last Character: ", testing[-1])
 
+get_str = input("Type a string: ")
+
+if get_str[2] == get_str[-1]:
+    print("The second and the last character is the same: ", get_str[2])
+else:
+    print("The second and the last character is different.")
+
