@@ -67,3 +67,11 @@ else:
 get_number = int(input("Width:"))
 print("#" * get_number)
 
+get_number2 = int(input("Height:"))
+
+for i in range(0, get_number):
+    print("#" * get_number2)
+
+get_string = input("Type a string: ")
+print(get_string)
+print("-"*len(get_string))
