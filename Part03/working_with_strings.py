@@ -75,3 +75,7 @@ for i in range(0, get_number):
 get_string = input("Type a string: ")
 print(get_string)
 print("-"*len(get_string))
+
+get_string = input("Type a string:")
+print("*" * (20 - len(get_string)) + get_string)
+
