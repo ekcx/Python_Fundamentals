@@ -71,6 +71,22 @@ print(input_string.find("T"))
 print(input_string.find("TTT"))  # will return -1 because could not find
 print(input_string.find("e"))    # will return the first index of "e"
 
+input_string = "perpendicular"
+
+while True:
+    substring = input("What are you looking for? ")
+    index = input_string.find(substring)
+    if index >= 0:
+        print(f"Found it at the index {index}")
+        break
+    else:
+        print("Not found.")
+
+# The difference between methods and functions that methods are always attached to the object they are called on.
+# .find() is a method
+# round() or pow() are functions.
+
+
 
 
 
