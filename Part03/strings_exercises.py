@@ -29,3 +29,38 @@ for i in range(lenght, -1, -1):
 for i in range(0, lenght):
     print(get_string[0:i+1])
 
+# Searching for substrings
+
+input_string = "Test"
+
+print("t" in input_string)  # It returns boolean value True or False
+print("T" in input_string)  # It returns True
+print("essss" in input_string)  # It returns False
+
+input_string = "perpendicular"
+
+while True:
+    substring = input("What are you looking for? ")
+    if substring in input_string:
+        print("Found it")
+        break
+    else:
+        print("Not found")
+
+get_string = input("Type in a string: ")
+
+if "a" in get_string:
+    print("a found")
+else:
+    print("a not found")
+
+if "e" in get_string:
+    print("e found")
+else:
+    print("e not found")
+
+if "o" in get_string:
+    print("o found")
+else:
+    print("o not found")
+
