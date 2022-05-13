@@ -64,3 +64,13 @@ if "o" in get_string:
 else:
     print("o not found")
 
+input_string = "tester"
+
+print(input_string.find("t"))
+print(input_string.find("T"))
+print(input_string.find("TTT"))  # will return -1 because could not find
+print(input_string.find("e"))    # will return the first index of "e"
+
+
+
+
