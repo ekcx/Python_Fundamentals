@@ -36,3 +36,58 @@ for i in range(1, get_limit):
 
 print(summation)
 
+number = int(input("Please type an integer: "))
+limit = 1
+
+while number > limit:
+    print(limit)
+    limit = limit + 1
+    if number < limit:
+        break
+
+upper_limit = int(input("Please type upper limit base2: "))
+base = 2
+summation2 = 1
+
+while summation2 < upper_limit:
+    print(summation2)
+    summation2 *= base
+    if summation2 >= upper_limit:
+        break
+
+upper_limit = int(input("Please type upper limit base3:"))
+base = 10
+summation3 = 1
+
+while summation3 < upper_limit:
+    print(summation3)
+    summation3 *= base
+    if summation3 >= upper_limit:
+        break
+
+# Building strings
+
+words = "pride"
+words = words + ", prejudice"
+words = words + " and Python"
+
+print(words)
+
+# The += operator allows us to write this a little more compactly:
+
+words = "prinde"
+words += ", prejudice"
+words += " and Python"
+
+print(words)
+
+# This also applies to f-strings..
+
+course = "Introduction to Programming"
+grade = 4
+
+verdict = "You have received. "
+verdict += f"The grade {grade}"
+verdict += f" from the course {course}"
+
+print(verdict)
