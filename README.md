@@ -1,4 +1,4 @@
-# Python_Fundamentals
+# mooc.fi - Python Programming
 
 https://programming-22.mooc.fi/
 
