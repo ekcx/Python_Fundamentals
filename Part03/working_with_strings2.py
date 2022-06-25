@@ -83,7 +83,7 @@ if len(type1) > 3:
 else:
     print()
 
-
+occurence = input("Enter the string: ")
 
 
 
