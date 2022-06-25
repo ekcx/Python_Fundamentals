@@ -6,7 +6,6 @@ if my_string[2:6] == "empl":
 else:
     print(False)
 
-
 input_string = "Presumptious"
 
 print(input_string[0:3])
@@ -20,11 +19,11 @@ print(input_string[4:])
 
 taking_string = input("Please type a string: ")
 
-for i in range(0, len(taking_string)+1):
+for i in range(0, len(taking_string) + 1):
     print(taking_string[0:i])
 
-for i in range(0, len(taking_string)+1):
-    print(taking_string[-1*len(taking_string)+i])
+for i in range(0, len(taking_string) + 1):
+    print(taking_string[-1 * len(taking_string) + i])
 
 # Searching in the string
 trying_string = "TesT"
@@ -77,48 +76,10 @@ index = type1.find(type2)
 
 if len(type1) > 3:
     if type2 in type1:
-        print(type1[index:index+3])
+        print(type1[index:index + 3])
     else:
         print()
 else:
     print()
 
-occurence = input("Enter the string: ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
